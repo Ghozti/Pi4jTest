@@ -14,6 +14,10 @@ public class Main {
     private static int pressCount = 0;
 
     public static void main(String[] args) throws InterruptedException {
+
+        BlinkLED.main();
+
+        /*
         // Here we will create I/O interfaces for a (GPIO) digital output
         // and input pin. We define the 'provider' to use PiGpio to control
         // the GPIO.
@@ -64,5 +68,6 @@ public class Main {
 
         // Shutdown Pi4J
         pi4j.shutdown();
+         */
     }
 }
